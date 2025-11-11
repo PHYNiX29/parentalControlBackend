@@ -35,7 +35,7 @@ app.use(mongoSanitize());
 app.use(xss());
 app.use(cors(
    {
-  origin:["http://localhost:5173","https://parental-control-frontend.vercel.app","https://parental-control-frontend-nine.vercel.app","https://parentalFrontend.backslashtiet.com"],
+  origin:["http://localhost:5173","https://parental-control-frontend.vercel.app","https://parental-control-frontend-nine.vercel.app","https://parentalfrontend.backslashtiet.com"],
    methods:["POST","GET","PUT","DELETE","PATCH"],
    credentials: true // Allow cookies to be sent with the request
 }
